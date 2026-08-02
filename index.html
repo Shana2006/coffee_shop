@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Coffee Shop</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f4f0;
+            color: #4b2e2e;
+        }
+
+        header {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #d8c3a5;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #6f4e37;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #4b2e2e;
+        }
+
+        .menu {
+            width: 80%;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .menu h2 {
+            margin-bottom: 20px;
+        }
+
+        .items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 220px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☕ Hot Beans Coffee Shop ☕</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="merchandise.html">Merchandise</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Fresh Coffee, Fresh Start</h2>
+        <p>Enjoy premium coffee, tasty snacks, and a cozy atmosphere.</p>
+        <a href="about.html" class="btn">Learn More</a>
+    </section>
+
+    <section class="menu">
+        <h2>Our Best Sellers</h2>
+
+        <div class="items">
+            <div class="card">
+                <h3>☕ Espresso</h3>
+                <p>Strong and rich coffee.</p>
+            </div>
+
+            <div class="card">
+                <h3>🥛 Latte</h3>
+                <p>Smooth espresso with steamed milk.</p>
+            </div>
+
+            <div class="card">
+                <h3>🍫 Mocha</h3>
+                <p>A delicious blend of coffee and chocolate.</p>
+            </div>
+
+            <div class="card">
+                <h3>🥐 Pastries</h3>
+                <p>Fresh baked treats every morning.</p>
+            </div>
+        </div>
+    </section>
+<footer></footer>
+
+</body>
+</html>

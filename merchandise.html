@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchandise - Bean Bliss Coffee Shop</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f4f0;
+            color: #4b2e2e;
+        }
+
+        header {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .container {
+            width: 90%;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color: #6f4e37;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #6f4e37;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4b2e2e;
+        }
+
+        footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☕ Bean Bliss Coffee Shop</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="merchandise.html">Merchandise</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Our Merchandise</h2>
+        <br>
+
+        <div class="products">
+
+            <div class="card">
+                <h3>☕ Coffee Mug</h3>
+                <p>Perfect for your morning coffee.</p>
+                <p class="price">₹299</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="card">
+                <h3>👕 T-Shirt</h3>
+                <p>Comfortable Bean Bliss T-Shirt.</p>
+                <p class="price">₹599</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="card">
+                <h3>🎒 Tote Bag</h3>
+                <p>Carry your essentials in style.</p>
+                <p class="price">₹399</p>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bean Bliss Coffee Shop | Shop Your Favorites ☕</p>
+    </footer>
+
+</body>
+</html>
